@@ -151,16 +151,37 @@ form button:active{
     .box{
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 10px;
     }
     .first{
         width: 350px;
-        height: 60vh;
+        height: 70vh;
     }
+    .first h4{
+        display: flex;
+        justify-content: center;
+    }
+    .innerBox1{
+        height: 80px;
+    }
+    form {
+        margin: 50px;
+    }
+    form input,button{
+     
+        height: 30px;
+        border-radius: 25px;
+    }
+    
+   
     .second{
-        width :350px;
+        width: 350px;
         height: 60vh;
     }
+    #trans li{
+        width: 300px;
+    }
+    
     
   }
 
