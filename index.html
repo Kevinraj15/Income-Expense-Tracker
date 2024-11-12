@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="image/coin.png">
+    <title>INCOME EXPENSE TRACKER</title>
+    <link rel="Stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="box">
+<div class="first">
+    <h4>INCOME EXPENSE TRACKER</h4>
+    <h3>Your Balance</h3>
+    <h2 id="balance">₹0.00</h2>
+    <div class="innerBox">
+    <div class="innerBox1">
+        <p>Income</p>
+        <p id="inncome">₹0.00</p>
+    </div>
+   <div class="innerBox1">
+        <p>EXPENSE</p>
+        <p id="expance">₹0.00</p>
+    </div>
+    </div> 
+ <form id="form">
+    <label for="desc">Description</label>
+    <input type="text" placeholder="Enter Description" id="desc">
+    <label for="amount">Amount</label>
+    <input type="number" placeholder="Enter Amount" id="amount">
+    <button>Add Transaction</button>
+ </form>
+</div>
+<div class="second">
+    <h3>Transaction Details</h3>    
+    <ul id="trans">
+        <li class="inc">Salary 
+            <sapn>30000</sapn>
+            <button>x</button>
+        </li>
+        <li class="exp">Food 
+            <span>3000</span>
+            <button>x</button>
+        </li>
+        <li class="expance">Insurance 
+            <sapn>2000</sapn>
+            <button>x</button>
+         </li>
+         
+    </ul>
+</div>
+</div>
+
+
+<script src="script.js"> </script>
+</body>
+</html>

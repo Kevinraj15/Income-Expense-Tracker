@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+.box{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh; 
+    width: 100%;
+    font-family: "Roboto", sans-serif; 
+    user-select: none;
+    
+    
+}
+.first{
+    width: 250px;
+    height: 60vh;
+    background-color: rgb(3, 3, 39);
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    color: aliceblue;
+}
+.second{
+    width: 250px;
+    height: 60vh;
+    background-color: rgb(242, 241, 243);
+
+}
+h4{
+    margin:10px 0px 0px 5px;
+
+}
+.first h3{
+    margin-top: 0px;
+
+}
+h2{
+    position: absolute;
+    top: 35px;
+    color: red;
+}
+
+
+.innerBox{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+.innerBox1{
+    border: ridge 5px greenyellow;
+    border-radius: 5px;
+    width: 100px;
+    height: 15vh;
+    color: black;
+    background-color: aliceblue;
+    
+}
+
+form{
+    margin: 20px 10px 20px 10px;
+    
+    
+}
+form label{
+    font-size: 12px;
+    
+}
+form input{
+    width: 220px; 
+    font-family: "Roboto", sans-serif;
+}
+form button{
+    width: 130px;
+    margin: 6px 45px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 4px;
+    font-weight: 500;
+    color: rgb(3, 3, 39);
+    cursor: pointer;
+    background-color: rgb(28, 120, 178);
+}
+form button:active{
+    background-color: red;
+    color: aliceblue;
+}
+.second{
+    overflow-y: scroll;
+    
+}
+
+.second ul{
+    margin: -10px 0px;
+    list-style-type: none;
+    position:relative;
+}
+.second h3{
+    margin-top: -0px;
+}
+
+.second li{
+    width: 200px;
+    margin: 5px -30px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: whitesmoke;
+    padding: 5px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.second li button{
+    background-color: rgb(231, 7, 7);
+    color: whitesmoke;
+    border-radius: 50%;
+    font-size: 8px;
+    position: absolute;
+    right: 10px;
+    width: 0px;
+    margin-top: -10px;
+    cursor: pointer;
+    opacity: 0;
+
+}
+#trans li.income {
+    border-left: green solid 5px;
+}
+#trans li.expance {
+    border-left: red solid 5px;
+}
+
+.second li:hover button{
+    opacity: 1;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(39, 39, 181);
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .box{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .first{
+        width: 250px;
+        height: 70vh;
+    }
+    .second{
+        height: 70vh;
+    }
+    
+  }
+
+  @media only screen and (min-width: 600px){
+    .first{
+        width: 250px;
+        height: 70vh;
+    }
+    .second{
+        height: 70vh;
+    }
+  }
+
+
+  @media only screen and (min-width: 992px){
+    .first{
+        height: 60vh;
+    }
+    .second{
+        height: 60vh;
+    }
+  }
+
+  @media only screen and (min-width: 1200px){
+    .first{
+        height: 58vh;
+    }
+    .second{
+        height: 58vh;
+    }
+  }
