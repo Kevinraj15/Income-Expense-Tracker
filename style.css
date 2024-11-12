@@ -154,11 +154,12 @@ form button:active{
         gap: 20px;
     }
     .first{
-        width: 250px;
-        height: 70vh;
+        width: 350px;
+        height: 60vh;
     }
     .second{
-        height: 70vh;
+        width :350px;
+        height: 60vh;
     }
     
   }
